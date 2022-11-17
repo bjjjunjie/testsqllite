@@ -1,7 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using testsqlite.DataAccess;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+string connecttext = builder.Configuration.GetConnectionString("MyContext");
+builder.Services.AddDbContext<MyDbContext>(options => options.UseSqlite(connecttext));
+
 
 var app = builder.Build();
 
