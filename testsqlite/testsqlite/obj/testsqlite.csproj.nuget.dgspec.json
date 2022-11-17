@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\代码\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj": {}
+    "E:\\代码\\sqllite\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj": {}
   },
   "projects": {
-    "E:\\代码\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj": {
+    "E:\\代码\\sqllite\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\代码\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj",
+        "projectUniqueName": "E:\\代码\\sqllite\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj",
         "projectName": "testsqlite",
-        "projectPath": "E:\\代码\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj",
+        "projectPath": "E:\\代码\\sqllite\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj",
         "packagesPath": "C:\\Users\\白俊杰\\.nuget\\packages\\",
-        "outputPath": "E:\\代码\\testsqllite\\testsqlite\\testsqlite\\obj\\",
+        "outputPath": "E:\\代码\\sqllite\\testsqllite\\testsqlite\\testsqlite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\白俊杰\\AppData\\Roaming\\NuGet\\NuGet.Config",

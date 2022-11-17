@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O/LpBV8jIrY+owr/HUnBdl9t9cLCJySpbva6WJLoe7ASLkcRsoySsrYtna6nrKuikkyPrXwMyY2DP59s+Cjwxg==",
+  "dgSpecHash": "gk+hIN6Y5YjbwGk8yIXneYOkN3N0R3kGZ+T6afuKfMs3UuPiHcEaWRnDUNTg5r2kS9CNZoXLxTvl6zaB2nTWQg==",
   "success": true,
-  "projectFilePath": "E:\\代码\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj",
+  "projectFilePath": "E:\\代码\\sqllite\\testsqllite\\testsqlite\\testsqlite\\testsqlite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\白俊杰\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\白俊杰\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
