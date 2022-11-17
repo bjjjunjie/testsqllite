@@ -1,12 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using testsqlite.DataAccess;
+using testsqlite.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-
+builder.Services.AddSignalR();
 string connecttext = builder.Configuration.GetConnectionString("MyContext");
 builder.Services.AddDbContext<MyDbContext>(options => options.UseSqlite(connecttext));
 
@@ -29,5 +30,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+app.MapHub<ChatHub>("/chatHub");
 
 app.Run();
